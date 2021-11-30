@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EC015D8B-4BC8-4245-A460-5A66EC357C8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{03F959E9-BD22-4148-BBB6-C0AC3D6FB743}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Puzzles", "src\AdventOfCode.Puzzles\AdventOfCode.Puzzles.csproj", "{05C56CB1-17E9-47AD-AEAD-6B2EE888FEED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Puzzles.UnitTests", "tests\AdventOfCode.Puzzles.UnitTests\AdventOfCode.Puzzles.UnitTests.csproj", "{45ECAFFA-C119-4814-8CCB-18EE8AED9DC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{05C56CB1-17E9-47AD-AEAD-6B2EE888FEED} = {EC015D8B-4BC8-4245-A460-5A66EC357C8E}
+		{45ECAFFA-C119-4814-8CCB-18EE8AED9DC6} = {03F959E9-BD22-4148-BBB6-C0AC3D6FB743}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05C56CB1-17E9-47AD-AEAD-6B2EE888FEED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C56CB1-17E9-47AD-AEAD-6B2EE888FEED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C56CB1-17E9-47AD-AEAD-6B2EE888FEED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C56CB1-17E9-47AD-AEAD-6B2EE888FEED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45ECAFFA-C119-4814-8CCB-18EE8AED9DC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45ECAFFA-C119-4814-8CCB-18EE8AED9DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45ECAFFA-C119-4814-8CCB-18EE8AED9DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45ECAFFA-C119-4814-8CCB-18EE8AED9DC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
