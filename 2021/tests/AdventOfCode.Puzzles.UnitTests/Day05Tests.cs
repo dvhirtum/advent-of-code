@@ -83,7 +83,7 @@ namespace AdventOfCode.Puzzles.UnitTests
             var result = day05.Solve2(input);
 
             // Assert
-            result.Should().Be(6856);
+            result.Should().Be(20666);
         }
     }
 }
